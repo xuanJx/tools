@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>win_gg</class>
+ <widget class="QWidget" name="win_gg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Windows 命令生成</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="encheck">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>36</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>英文版本</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="win8radio">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>39</y>
+     <width>89</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Win2008R2</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="win12radio">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>38</y>
+     <width>89</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Win2012R2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="interline">
+   <property name="geometry">
+    <rect>
+     <x>429</x>
+     <y>34</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>60</y>
+     <width>641</width>
+     <height>521</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="copybutton">
+   <property name="geometry">
+    <rect>
+     <x>112</x>
+     <y>6</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>复制到粘贴板</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
